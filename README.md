@@ -10,6 +10,11 @@ cd /var/www/html/
 sudo git clone https://github.com/kmcrawford/hiscore-api.git
 ```
 
+# mame2003 hi scores location
+
+By default this will use `/home/pi/RetroPie/roms/mame-libretro/mame2003/hi/` if you have your games in another loction please set the environment variable `HISCORE_LOCATION` to the path of your highscores.
+
+
 # view api
 http://retropie.local/hiscore-api/
 
