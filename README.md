@@ -22,3 +22,52 @@ http://retropie.local/hiscore-api/
 https://github.com/CrazySpence/hiscore-php/ <br>
 http://forum.arcadecontrols.com/index.php/topic,83614.0.html
 
+# example output
+
+```
+{
+	"games": [{
+		"scoreData": {
+			"score": [42650, 40440, 28200, 27090, 26240],
+			"initials": ["KEN", "CSC", "AAA", "KEN", "KEN"],
+			"top": 42650
+		},
+		"game": "galaga"
+	}, {
+		"scoreData": {
+			"score": 26440
+		},
+		"game": "mspacman"
+	}, {
+		"scoreData": {
+			"score": 4190
+		},
+		"game": "pacman"
+	}, {
+		"scoreData": {
+			"scores": [{
+				"score": 10400,
+				"scoreWithLeadingZeros": "010400",
+				"initials": "   "
+			}, {
+				"score": 7650,
+				"scoreWithLeadingZeros": "007650",
+				"initials": "   "
+			}, {
+				"score": 6900,
+				"scoreWithLeadingZeros": "006900",
+				"initials": "KEN"
+			}, {
+				"score": 6100,
+				"scoreWithLeadingZeros": "006100",
+				"initials": "   "
+			}, {
+				"score": 5950,
+				"scoreWithLeadingZeros": "005950",
+				"initials": "   "
+			}]
+		},
+		"game": "dkong"
+	}]
+}
+```
