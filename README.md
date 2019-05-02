@@ -14,6 +14,6 @@ sudo git clone https://github.com/kmcrawford/hiscore-api.git
 http://retropie.local/hiscore-api/
 
 # credit:
-https://github.com/CrazySpence/hiscore-php/
+https://github.com/CrazySpence/hiscore-php/ <br>
 http://forum.arcadecontrols.com/index.php/topic,83614.0.html
 
